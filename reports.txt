@@ -1,0 +1,21 @@
+
+ALL ORDERS:
+
+ first_name |          email          |          From           |        To         |   name    | price |      departure      |     paying_time     
+------------+-------------------------+-------------------------+-------------------+-----------+-------+---------------------+---------------------
+ Angela     | aortiz0@yolasite.com    | German Berlin           | USA New York      | porta     |   540 | 2016-10-10 05:10:00 | 2016-10-06 05:05:06
+ Clarence   | ctorres1@wordpress.com  | Ukraine Ivano-Frankivsk | USA San Francisco | habitasse |   787 | 2016-10-10 08:00:00 | 2016-10-05 11:05:06
+ Randy      | rthompsonk@exblog.jp    | Ukraine Ivano-Frankivsk | USA San Francisco | habitasse |   787 | 2016-10-10 08:00:00 | 2016-10-05 09:05:00
+ Clarence   | ctorres1@wordpress.com  | Ukraine Ivano-Frankivsk | German Berlin     | ultrices  |  1860 | 2016-10-10 09:00:00 | 2016-10-05 05:05:06
+ Randy      | rtaylor3@nature.com     | USA San Francisco       | German Berlin     | nunc      |   660 | 2016-09-13 08:10:00 | 2016-10-04 07:05:00
+ Alice      | apatterson4@storify.com | German Berlin           | USA San Francisco | pede      |  1424 | 2016-10-03 06:00:00 | 2016-10-04 05:05:05
+ Aaron      | ajamesm@google.com      | Ukraine Ivano-Frankivsk | German Berlin     | ultrices  |  1860 | 2016-10-10 09:00:00 | 2016-10-02 09:05:00
+(7 rows)
+
+REJECTED ORDERS:
+
+ first_name |       email        |          From           |      To       |   name   | price |      departure      |     paying_time     |   rejection_time    
+------------+--------------------+-------------------------+---------------+----------+-------+---------------------+---------------------+---------------------
+ Aaron      | ajamesm@google.com | Ukraine Ivano-Frankivsk | German Berlin | ultrices |  1860 | 2016-10-10 09:00:00 | 2016-10-02 09:05:00 | 2016-10-05 09:10:06
+(1 row)
+
