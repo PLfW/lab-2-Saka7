@@ -32,6 +32,7 @@ CREATE TABLE IF NOT EXISTS flights(
 );
 
 CREATE TABLE IF NOT EXISTS orders(
+	id serial PRIMARY KEY,
   user_id serial REFERENCES users(id),
   flight_id serial REFERENCES flights(id),
   applying_time timestamp NOT NULL,
